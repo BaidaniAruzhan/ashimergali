@@ -5,28 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мен туралы</title>
     <style>
+        /* Общий стиль для всей страницы */
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-            color: #333;
             margin: 0;
-            padding: 20px;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background: linear-gradient(to bottom right, #6A11CB, #2575FC);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
+
+        /* Контейнер */
         .container {
-            max-width: 800px;
-            margin: auto;
             background: #fff;
+            max-width: 600px;
             padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
         }
-        a {
-            color: #007BFF;
+
+        /* Заголовок */
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #6A11CB;
+        }
+
+        /* Список данных */
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        /* Кнопка портфолио */
+        .btn {
+            display: inline-block;
+            background: #6A11CB;
+            color: #fff;
+            padding: 12px 20px;
+            font-size: 1em;
+            font-weight: bold;
             text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
         }
-        a:hover {
-            text-decoration: underline;
+
+        /* Анимация при наведении на кнопку */
+        .btn:hover {
+            background: #2575FC;
         }
     </style>
 </head>
@@ -38,7 +68,8 @@
         <p><strong>Оқып жатқан орны:</strong> Абай атындағы Қазақ ұлттық педагогикалық университеті</p>
         <p><strong>Мамандығы:</strong> Физика</p>
         <p><strong>Мамандық коды:</strong> 6B05301</p>
-        <p><strong>Портфолио:</strong> <a href="https://ashimergali45.wixsite.com/ashim06" target="_blank">Менің портфолиом</a></p>
+        <a href="https://ashimergali45.wixsite.com/ashim06" target="_blank" class="btn">Менің портфолиом</a>
     </div>
 </body>
 </html>
+
